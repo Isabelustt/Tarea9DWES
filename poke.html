@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarea9DWES</title>
+  <style>
+    @import url(estilos.css);
+  </style>
+</head>
+<body>
+<div class="contenido">
+  <h1>Bienvenido al mundo Pokemon</h1>
+  <p>Descubre los pokemon que se esconden entre el Nº1 y el Nº807</p>
+  <label for="numeroPokemon">¡Hazte con todos!</label>
+  <input type="number" id="numeroPokemon" min="1" max="807">
+  <!-- Botón que ejecuta la función para obtener detalles del Pokémon -->
+  <button onclick="obtenerDetallesPokemon()">Descubre</button>
+</div>
+  <!-- Contenedor para mostrar los detalles del Pokémon -->
+  <div id="detallesPokemon"></div>
+
+  <script src="funciones.js"></script>
+  <footer>
+    <p>Alumna: Isabel Gómez Mora</p>
+  </footer>
+
+</body>
+</html>
